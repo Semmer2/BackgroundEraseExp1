@@ -6,3 +6,9 @@ using namespace cv;
 #pragma once
 
 void EraseBGDhist(Mat image);
+
+Mat AutoToBiImage(Mat imageGray);
+
+Mat BlurAndSharp(Mat imageGray);
+
+Mat OptimizeRegion(Mat BiImage);
